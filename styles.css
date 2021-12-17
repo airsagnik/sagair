@@ -1,0 +1,154 @@
+.frontimage
+{
+  height: 30%;
+  width: 100%;
+
+}
+.navbar-toggler-icon
+{
+  color: black;
+  z-index: 1;
+}
+.logo
+{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin-left: 4%;
+  margin-right: 0;
+
+
+}
+.hamburger
+{
+
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+.brandtext
+{
+  margin-left: 0;
+}
+.optionsnavbar
+{
+  margin-right: 4%;
+}
+.navigation
+{
+  background-color:#FAEDC6;
+
+}
+.front-image-text{
+   text-align: left;
+   position: absolute;
+   top: 30%;
+   left: 4%;
+
+
+}
+@media (max-width:998px)  {
+
+     .front-image-text
+     {
+       position: relative;
+       text-align: center;
+       padding: 7% 10%;
+     }
+
+}
+
+#booking
+{
+  padding: 7% 10%;
+  background-color: #FAEDC6;
+
+}
+.passdetails
+{
+  text-align: center;
+}
+@media (max-width:1058px) {
+     .passdetails
+     {
+       padding: 3% 3%;
+       text-align: center;
+     }
+
+}
+
+.featureimg
+{
+  height: 200px;
+  width: 250px;
+  border-radius: 50px;
+  align-items: center;
+}
+.feature-box
+{
+  text-align: center;
+
+  justify-content: center;
+}
+.featuresection
+{
+  padding: 7% 10%;
+}
+body
+{
+  margin: 0;
+}
+#carouselExampleControls
+{
+  padding: 3%;
+  justify-content: center;
+}
+.btnback
+{
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+.stackadjust
+{
+  overflow-x: auto;
+
+}
+
+@media (min-width:1267px)  {
+
+  .stackadjust::-webkit-scrollbar
+  {
+    width: 10px;
+  }
+}
+.footerimg
+{
+  height: 50px;
+  width: 50px;
+}
+.contact
+{
+  height: 30px;
+  width: 30px;
+}
+.about
+{
+  padding-top:7%;
+}
+.contactalign
+{
+  justify-content: center;
+  text-align: center;
+}
+.attribute
+{
+  text-align: center;
+
+}
