@@ -122,6 +122,7 @@
 body
 {
   margin: 0;
+  padding-bottom: 0;
 }
 #carouselExampleControls
 {
@@ -169,9 +170,20 @@ body
 {
   justify-content: center;
   text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .attribute
 {
   text-align: center;
 
+}
+#end
+{
+  background-color:#FAEDC6;
+
+}
+p
+{
+  margin-bottom: 0;
 }
