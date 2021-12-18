@@ -29,36 +29,38 @@
 
         <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
           <ul class="navbar-nav ms-auto optionsnavbar">
-            <li class="nav-item"><a class="nav-link" href="#end">About us</a></li>
-            <li class="nav-item"><a class="nav-link" href="#end">Contacts</a></li>
-            <li class="nav-item"><a class="nav-link" href="#booking">Booking</a></li>
-            <li><button type="button" class="btn btn-dark nav-item">Login</button></li>
+            <li class="nav-item shiftleft"><a class="nav-link" href="#end">About us</a></li>
+            <li class="nav-item shiftleft"><a class="nav-link" href="#end">Contacts</a></li>
+            <li class="nav-item shiftleft"><a class="nav-link" href="#booking">Booking</a></li>
+            <li class="nav-item shiftleft" ><button type="button" class="btn btn-dark">Login</button></li>
 
           </ul>
         </div>
       </nav>
 
       <img class="frontimage" src="images/sagair_front.jpg" alt="">
-      <div class="front-image-text">
-
-        <h1 class="">Fly to your dream Destination!</h1>
-        <h3>Explore destination and prices now!</h3>
-        <button type="button" class="btn btn-dark explorebutton"> Explore</button>
+      <div class="container-fluid">
+        <div class="front-image-text">
+          <h1 class="">Fly to your dream Destination!</h1>
+          <h3>Explore destination and prices now!</h3>
+          <button type="button" class="btn btn-dark explorebutton"> Explore</button>
+        </div>
       </div>
+
 
     </div>
   </section>
 
   <section id="booking">
-    <div class="container">
+    <div class="">
       <form>
-        <div class="form-group">
+        <div class="form-group bookunit">
           <label for="exampleInputEmail1">From</label>
           <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Kolkata (CCU)">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Add nearby Airport</label>
         </div>
-        <div class="form-group">
+        <div class="form-group bookunit">
           <label for="exampleInputPassword1">To</label>
           <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Hyderabad (HYD)">
           <input type="checkbox" class="form-check-input" id="exampleCheck2">
@@ -67,13 +69,13 @@
 
         <div class="row">
           <div class="col">
-            <div class="form-group">
+            <div class="form-group bookunit">
               <label for="exampleInputPassword11">Depart</label>
               <input type="date" class="form-control" id="exampleInputPassword11">
             </div>
           </div>
           <div class="col">
-            <div class="form-group">
+            <div class="form-group bookunit">
               <label for="exampleInputPassword12">Return</label>
               <input type="date" class="form-control" id="exampleInputPassword12">
             </div>
@@ -84,9 +86,10 @@
         <div class="row passdetails">
           <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
             <div class="form-group passdetails">
-              <label for="seattype">Cabin class</label>
-              <select class="cabin" name="cabin-class">
+              <label for="seattype" id="type">Cabin class</label>
+              <select class="cabin" id="type"  name="cabin-class">
                 <option value="Economy"><h4>Economy</h4></option>
+                <option value="premiumeco"><h4>Premium Economy</h4></option>
                 <option value="Business"><h4>Business</h4></option>
                 <option value="First Class"><h4>First Class</h4></option>
               </select>
@@ -94,15 +97,15 @@
           </div>
           <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
             <div class="form-group passdetails">
-              <label for="nochildren">Children</label>
-              <input type="number" name="nochildren" value="0" min="0">
+              <label for="nochildren" id="child">Children</label>
+              <input type="number" id="child" name="nochildren" value="0" min="0">
             </div>
 
           </div>
           <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
             <div class="form-group passdetails">
-              <label for="noadult">Adult</label>
-              <input type="number" name="noadult" value="1" min="1">
+              <label for="noadult" id="adult">Adult</label>
+              <input type="number" id="adult" name="noadult" value="1" min="1">
             </div>
 
           </div>
@@ -117,7 +120,7 @@
 
 
   <section class="featuresection" id="fsec">
-    <div class="container">
+
       <div class="row featurs-airline">
         <div class="col col-lg-4 col-md-12 col-sm-12 col-xs-12">
           <div class="feature-box card">
@@ -185,11 +188,11 @@
           </div>
         </div>
       </div>
-    </div>
+
   </section>
 
   <section id="explore">
-
+    <div class="">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner destination">
         <div class="carousel-item active">
@@ -301,12 +304,13 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+  </div>
   </section>
   <script src="index.js" charset="utf-8"></script>
 </body>
 
 <footer id="end">
-  <div class="container about">
+  <div class="container-fluid about">
     <div class="row">
       <div class="col">
         <div class="attribute">
@@ -344,7 +348,7 @@
   <br>
   <br>
 
-  <div class="container contactalign">
+  <div class="container-fluid contactalign">
     <h4>Contact us</h4>
     <div class="row">
       <div class="col">

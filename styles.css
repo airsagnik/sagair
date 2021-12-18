@@ -27,6 +27,14 @@
 
 
 }
+@media (max-width:1000px)
+{
+  .shiftleft
+  {
+    text-align: right;
+  }
+
+}
 
 .brandtext
 {
@@ -53,9 +61,10 @@
 
      .front-image-text
      {
-       position: relative;
+       position: static;
        text-align: center;
        padding: 7% 10%;
+       margin: 0;
      }
 
 }
@@ -66,19 +75,33 @@
   background-color: #FAEDC6;
 
 }
+
 .passdetails
 {
-  text-align: center;
+  text-align:center;
+  margin-bottom: 2%;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
 }
 @media (max-width:1058px) {
      .passdetails
      {
-       padding: 3% 3%;
-       text-align: center;
+       margin: 2% 2%;
+       justify-content: space-between;
+       align-items: center;
+
      }
 
 }
 
+
+.bookunit
+{
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
 .featureimg
 {
   height: 200px;
