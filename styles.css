@@ -109,6 +109,16 @@
   border-radius: 50px;
   align-items: center;
 }
+@media (max-width:990px)
+{
+  .featureimg
+  {
+    height: 400px;
+    width: 450px;
+    border-radius: 50px;
+    align-items: center;
+  }
+}
 .feature-box
 {
   text-align: center;
